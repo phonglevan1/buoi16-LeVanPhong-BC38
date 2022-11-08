@@ -16,7 +16,7 @@ function ex2() {
     for (i = 1; i <= n; i++) {
         total += Math.pow(x, i);
     }
-    document.getElementById("result-2").innerHTML = "Tổng: " + total;
+    document.getElementById("result-2").innerHTML = "Tổng: " + total.toLocaleString('vi-VN');
 }
 
 function ex3() {
@@ -25,7 +25,7 @@ function ex3() {
     for (var i = 1; i <= n; i++) {
         total3 *= i;
     }
-    document.getElementById("result-3").innerHTML = "Tổng: " + total3;
+    document.getElementById("result-3").innerHTML = "Tổng: " + total3.toLocaleString('vi-VN');
 }
 
 function ex4() {
