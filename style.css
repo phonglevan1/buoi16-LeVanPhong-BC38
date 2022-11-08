@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+}
+h1{
+    color: #fdcb56;
+}
+.col-12{
+    text-align: left;
+}
+.lesson-1 .result1{
+    width: 380px;
+    background-color: #d1ecf1;
+    border: #d1ecf1;
+    color: #80a9af;
+    border-radius: 5px;
+    height: 2rem;
+}
+.lesson-2 .lesson2{
+    width: 380px;
+    border:1px solid #e7eaed ;
+    margin-bottom: 9px;
+    border-radius: 5px;
+}
+.lesson-2 button{
+    background-color: #dc3545;
+    color: #fff;
+    border: #dc3545;
+    border-radius: 5px;
+}
+.lesson-2 .result2{
+    width: 380px;
+    background-color: #f8d7da;
+    border: #d1ecf1;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+
+.lesson-3 #txt-b3{
+    width: 380px;
+    border:1px solid #e7eaed ;
+    margin-bottom: 9px;
+    border-radius: 5px;
+}
+.lesson-3 .result3{
+    width: 380px;
+    background-color: #d1ecf1;
+    border: #d1ecf1;
+    color: #80a9af;
+    border-radius: 5px;
+    height: 2rem;
+}
+.lesson-3 button, .lesson-4 button{
+    background-color: #218838;
+    color: #fff;
+    border: #218838;
+    border-radius: 5px;
+}
+.lesson-4{
+    margin-bottom: 2rem;
+}
+.lesson-4 #result4{
+    background-color: blue; 
+    width: 380px;
+    padding: 0;
+}
+.lesson-4 div:nth-child(odd){
+    background: blue;
+}
+.lesson-4 div:nth-child(even){
+    background: red;
+}
